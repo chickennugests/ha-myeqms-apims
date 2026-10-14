@@ -1,0 +1,19 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Malaysia APIMS Station Setup",
+        "description": "Select the air monitoring station you want to monitor. If your Home Assistant instance has latitude and longitude set, the nearest station is pre-selected.",
+        "data": {
+          "station_id": "Air Quality Station"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to MyEQMS API. Please check your internet connection."
+    },
+    "abort": {
+      "already_configured": "This station is already configured in Home Assistant."
+    }
+  }
+}

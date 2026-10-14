@@ -1,0 +1,13 @@
+{
+  "domain": "myeqms_apims",
+  "name": "Malaysia APIMS (DOE MyEQMS)",
+  "documentation": "https://github.com/myeqms-api/ha-myeqms-apims",
+  "issue_tracker": "https://github.com/myeqms-api/ha-myeqms-apims/issues",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "version": "1.0.0",
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "integration_type": "service"
+}
